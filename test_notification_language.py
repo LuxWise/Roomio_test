@@ -44,7 +44,7 @@ try:
         EC.text_to_be_present_in_element((By.TAG_NAME, "h2"), "Congratulations!")
     )
 
-    print("✅test notification language")
+    print("✅ test notification language")
 
 except Exception as e:
     print(f"❌ test notification language: {e}")

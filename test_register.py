@@ -88,7 +88,7 @@ try:
     # 8. Esperar redirección final
     time.sleep(10)
 
-    print("✅test register")
+    print("✅ test register")
 
 except Exception as e:
     print(f"❌ test register: {e}")
