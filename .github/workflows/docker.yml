@@ -22,8 +22,8 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t ${{ secrets.DOCKER_USERNAME }}/roomio_web_arq:latest .
+        docker build -t ${{ secrets.DOCKER_USERNAME }}/test-roomio:latest .
 
     - name: Push Docker image
       run: |
-        docker push ${{ secrets.DOCKER_USERNAME }}/roomio_web_arq:latest
+        docker push ${{ secrets.DOCKER_USERNAME }}/test-roomio:latest
