@@ -9,3 +9,4 @@ python3 test_recover_password.py jcsanchez.martinez.2020@gmail.com
 python3 test_register.py henogo5821@jio1.com 513267
 python3 test_room_details.py
 python3 test_login_room.py jcsanchez55@ucatolica.edu.co 123456
+python3 test_mobile.py jcsanchez55@ucatolica.edu.co 123456
